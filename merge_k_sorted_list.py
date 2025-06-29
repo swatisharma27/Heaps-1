@@ -14,6 +14,10 @@ class ListNode:
 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        """
+        TC: O(N log k); N = number of nodes(n) * number of linked lists (k)
+        AS: O(k)
+        """
 
         min_heap = []
 

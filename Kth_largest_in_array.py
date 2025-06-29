@@ -1,6 +1,10 @@
 import heapq
 class Solution:
     def findKthLargest(self, nums, k):
+        """
+        TC: O(n * log k)
+        AS: O(k)
+        """
         pq = [] # min heap
 
         for num in nums:
